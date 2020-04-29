@@ -175,3 +175,14 @@ gradle安装：https://blog.csdn.net/yao_94/article/details/81211528
 
 HAXM重装：https://www.jianshu.com/p/7be97678aa8b
 
+https://www.cnblogs.com/xiadewang/p/7820377.html
+
+
+
+
+
+报错：
+
+解决
+
+https://blog.csdn.net/weixin_40408952/article/details/103842660

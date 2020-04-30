@@ -83,4 +83,3 @@ maven、gradle只需要引入版本号就可以对jar进行管理：
 compile group: 'com.alibaba', name: 'fastjson', version: '1.2.68'
 ```
 
-![unnamed](picture/unnamed.jpg)

@@ -289,7 +289,7 @@ INSERT INTO `test`.`t_user_hellocoder`(`id`, `name`, `description`) VALUES (1, '
 
 
 
-## 5 配置 `applicati onContext.xml` 和 `spring-mvc.xml`
+## 5 配置 `applicationContext.xml` 和 `spring-mvc.xml`
 
 新建 `spring-mvc.xml`:
 
@@ -359,7 +359,7 @@ INSERT INTO `test`.`t_user_hellocoder`(`id`, `name`, `description`) VALUES (1, '
         <!-- 扫描model包 -->
         <property name="typeAliasesPackage" value="com.ssm.hellocoder.entity"/>
         <!-- 扫描sql配置文件:mapper需要的xml文件-->
-        <property name="mapperLocations" value="classpath:mapper/TUserHellocoderDao.xml"/>
+        <property name="mapperLocations" value="classpath:mapper/*.xml"/>
     </bean>
 
     <!-- Mapper动态代理开发，扫描dao接口包-->
